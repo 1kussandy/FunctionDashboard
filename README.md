@@ -15,7 +15,7 @@ Node.js (Optional): Used for backend server implementation if integrating with a
 Clone the repository to your local machine using the following command:
 bash
 Copy code
-git clone https://github.com/your-username/job-search-portal.git
+git clone the code through HTTPS or SSH
 Navigate to the project directory:
 bash
 Copy code
