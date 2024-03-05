@@ -1,0 +1,22 @@
+/* JobsContainer.css */
+.JobsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    padding: 20px; /* Add padding around the job cards */
+    background-color: #fff; /* White background for the job container */
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px; /* Limit maximum width */
+  }
+  
+  .JobCard {
+    width: calc(33.33% - 20px); /* Set width for three cards per row with padding */
+    margin-bottom: 20px; /* Add space between rows */
+    background-color: #f8f9fa; /* Light gray background for the job cards */
+    border: 1px solid #ccc; /* Add border around the job cards */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  

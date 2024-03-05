@@ -1,0 +1,10 @@
+/* App.css */
+body {
+    background-color: #f1f4f7; /* Light blue */
+    display: flex;
+    flex-direction: column; /* Ensure the body is a column layout */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Set minimum height to fill the viewport */
+  }
+  

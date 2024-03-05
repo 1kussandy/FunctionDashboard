@@ -1,0 +1,80 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff; /* White background for the header */
+    border-bottom: 1px solid #ccc; /* Add border at the bottom */
+    border-radius: 10px;
+    margin: 20px;
+  }
+
+
+
+
+
+
+  .SearchInput {
+    flex-grow: 1; /* Allow the input to grow and take up available space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin to separate from the next element */
+    font-size: 16px;
+  }
+  
+
+
+.filter{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff; /* White background for the header */
+  border-bottom: 1px solid #ccc; /* Add border at the bottom */
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  
+ 
+}
+
+
+
+
+
+  .Heading {
+    padding: 15px 30px;
+    background-color: #fff; /* White background for the header */
+    border-bottom: 1px solid #ccc; /* Add border at the bottom */
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .Heading h2,h1,p{
+
+    text-align: center;
+  }
+  
+ 
+  
+  
+  .SearchButton,
+  .FilterSelect,
+  .SignupButton,
+  .SigninButton {
+    padding: 8px 16px; /* Add padding for the button text */
+    background-color: #288be9; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    font-size: 16px;
+    border-bottom: 4px solid #27719b; /* Add border at the bottom */
+  }
+  
+  .SearchButton:hover,
+  .FilterSelect:hover,
+  .SignupButton:hover,
+  .SigninButton:hover {
+    background-color: #de2a3f; /* Darker green color on hover */
+  }
